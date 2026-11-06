@@ -1,0 +1,7 @@
+﻿scenario,algorithm,runs,feasible_rate,mean_objective,std_objective,mean_ms
+A,greedy,1,1.0,491.0,0,1.01
+A,ga,1,1.0,463.0,0,911.68
+B,greedy,0,0,,,
+B,ga,0,0,,,
+C,greedy,0,0,,,
+C,ga,0,0,,,

@@ -1,0 +1,38 @@
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#1e304a;background:#f0f5fa}*{box-sizing:border-box}body{margin:0}header{background:linear-gradient(115deg,#102e52,#126ba0);color:#fff;padding:24px 0}.wrap{max-width:1380px;padding:0 22px;margin:auto}header h1{margin:6px 0;font-size:28px}header h1 span{font-size:21px;font-weight:500;color:#d6ebfc}.eyebrow{font-size:11px;letter-spacing:2px;color:#ace7ed;font-weight:800}header p{color:#d5e8f7;margin:4px 0;font-size:14px}.layout{display:grid;grid-template-columns:320px minmax(0,1fr);gap:17px;margin-top:20px}.panel{background:white;border-radius:14px;box-shadow:0 4px 18px #102b460e;border:1px solid #dde7f2;padding:19px;margin-bottom:16px}.panel h2{font-size:17px;margin:0 0 15px}.panel h3{font-size:14px}.inputs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:13px}.inputs label{font-size:12px;font-weight:650}input,select{width:100%;display:block;padding:10px;border:1px solid #cedceb;border-radius:8px;font:inherit;margin-top:5px;background:white;color:#1e304a}button{background:#1372ba;color:#fff;border:0;padding:11px 14px;font-weight:700;border-radius:9px;cursor:pointer}button:hover{filter:brightness(1.08)}button:disabled{opacity:.55;cursor:wait}.light{background:#e7f0fb;color:#175387}.secondary{background:#0d827d}.wide{width:100%}.note{background:#f4f8fc;border:1px solid #e2eaf2;color:#536b82;font-size:12px;line-height:1.6;border-radius:9px;padding:10px;margin-top:12px}.status{color:#56718e;font-size:12px;line-height:1.5}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stats>div{background:#f3f8fc;border-radius:10px;padding:15px;border:1px solid #dfebf5}.stats small{display:block;color:#5c7288;font-size:12px}.stats strong{display:block;margin-top:7px;font-size:21px;color:#123b64}.tablebox{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;border-bottom:1px solid #e6ecf3;padding:10px;white-space:nowrap}th{background:#eff5fb;color:#3a5873}td{color:#334d68}.scroll{max-height:260px;overflow-y:auto}.paneltop{display:flex;justify-content:space-between;align-items:center;gap:12px}.paneltop select{max-width:220px;margin:0}.calendar{overflow:auto;margin-bottom:13px}.calendar table{min-width:650px;table-layout:fixed}.calendar th,.calendar td{border:1px solid #d7e5f2;vertical-align:top;width:20%;white-space:normal}.course{padding:7px;border-left:3px solid #2d83bb;background:#eaf6ff;border-radius:5px;margin:3px 0;line-height:1.5;font-size:12px}.course b{display:block}.meter{height:11px;background:#e2ecf6;border-radius:9px;margin:12px 0 6px;overflow:hidden}.meter>div{height:100%;background:#1aaf95;width:0%;transition:width .2s}canvas{width:100%;height:230px;border:1px solid #e5edf5;border-radius:9px}@media(max-width:950px){.layout{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}@media(max-width:500px){.wrap{padding:0 12px}.stats{grid-template-columns:1fr 1fr}header h1{font-size:23px}header h1 span{font-size:17px}}
+.live-actions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.live-actions button{flex:1;min-width:105px}.live-grid{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px}.live-grid>div{background:#f0f6fc;padding:12px;border-radius:10px}.live-grid strong{display:block;font-size:23px;margin-top:5px}.live-status{padding:10px 12px;border-radius:9px;background:#e5f1fc;margin:10px 0}.live-log{max-height:250px;overflow:auto}button:disabled{opacity:.5;cursor:not-allowed}@media(max-width:850px){.live-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.data-preview{font-size:13px;line-height:1.7;margin:10px 0;border:1px solid #dbe8f5;border-radius:10px;padding:12px;background:#f8fbff;color:#254565}.data-preview:empty{display:none}.data-preview span{color:#667f98}.live-actions{display:flex;flex-wrap:wrap;gap:8px}.live-actions button{flex:1 1 130px}.live-actions button:disabled{opacity:.42}
+
+[hidden]{display:none!important}.observe-toggle{margin-top:8px}.observe-toggle.is-open{background:#d6f3e8;color:#086856}
+
+.scenario-panel{margin:12px 0;border:1px solid #dce8f3;border-radius:10px;padding:10px;background:#f7fbff}.scenario-panel h3{margin:2px 0 6px;font-size:14px}.scenario-table{overflow-x:auto}.scenario-table table{table-layout:fixed;min-width:0}.scenario-table th,.scenario-table td{padding:5px 3px;text-align:center;font-size:12px}.scenario-table th:first-child{width:58px}.scenario-table input{padding:8px 3px;margin:0;width:100%;font-size:13px;text-align:center;min-width:0}.scenario-panel button{margin-top:10px;font-size:12px}
+
+/* Form inputs: keep rows compact while aligning inputs despite multiline captions. */
+.inputs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:10px; row-gap:10px; margin-bottom:13px; align-items:stretch; }
+.inputs > label { display:flex; flex-direction:column; justify-content:flex-start; min-width:0; margin:0; }
+.inputs > label > span { display:flex; align-items:flex-end; min-height:34px; line-height:1.35; padding-bottom:1px; }
+.inputs > label > input, .inputs > label > select { width:100%; height:46px; min-height:46px; flex-shrink:0; margin-top:5px; }
+/* GA includes a caption spanning three lines, requiring slightly more room. */
+.ga-config > label > span { min-height:49px; }
+
+/* Bố cục lịch 7 ngày và danh sách phòng có thể chỉnh sửa. */
+.calendar table{min-width:915px;table-layout:fixed}
+.calendar th:first-child{width:74px;min-width:74px;position:sticky;left:0;z-index:2;background:#eff5fb}
+.calendar th:not(:first-child),.calendar td{width:calc((100% - 74px)/7);min-width:116px}
+.calendar td{padding:7px 5px;min-height:65px}
+.course{margin:3px 0 7px;padding:7px 7px;border-left:4px solid #1679b2;white-space:normal;line-height:1.35}
+.course span{display:block;margin-top:3px;font-size:11px;color:#375a73}
+.calendar-legend{margin:8px 0 15px}
+.room-inventory{max-height:340px}
+.room-inventory td{padding:6px 5px}
+.room-inventory input,.room-inventory select{padding:7px 5px;margin:0;font-size:12px;min-width:80px}
+.room-inventory input{width:94px}
+.constraints-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.constraints-list>div{padding:10px;border:1px solid #d7e8f5;border-radius:8px;background:#f7fbfe;font-size:13px}
+.campus-addresses{margin-top:14px;font-size:12px;color:#385573}
+.campus-addresses summary{cursor:pointer;font-weight:650}
+input[readonly]{background:#eef4f9;color:#6c8094}
+@media(max-width:680px){.constraints-list{grid-template-columns:1fr}}
+
+.calendar td:nth-child(8),.calendar th:nth-child(8){background-color:#faf8f2}
+.calendar td:nth-child(8) .course{background-color:#e9f6ff}

@@ -1,0 +1,12 @@
+﻿Tham so,Gia tri
+kich_ban_A,"30 lop, 8 phong, 15 ca"
+kich_ban_B,"50 lop, 10 phong, 20 ca"
+kich_ban_C,"70 lop, 15 phong, 25 ca"
+so_luot,1
+seed_thuc_nghiem,20261023
+quan_the_GA,35
+so_the_he_GA,65
+xac_suat_dot_bien,0.4
+trong_so_uu_tien_gio,2.0
+seed_du_lieu_luot_k,seed_thuc_nghiem + k - 1
+seed_GA_luot_k,seed_thuc_nghiem + 100000 + k - 1

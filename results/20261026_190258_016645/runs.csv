@@ -1,0 +1,2 @@
+﻿trial,scenario,instance_seed,classes,rooms,slots,experiment_seed,ga_seed,population,generations,mutation_probability,preference_weight,greedy_objective,ga_objective,greedy_feasible,ga_feasible,greedy_ms,ga_ms
+1,A,20261023,30,8,15,20261023,20361023,35,65,0.4,2.0,491.0,463.0,1,1,1.978,886.578

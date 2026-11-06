@@ -1,0 +1,48 @@
+{
+  "config": {
+    "trials": 1,
+    "seed": 20261023,
+    "population": 35,
+    "generations": 65,
+    "mutation_probability": 0.4,
+    "preference_weight": 2,
+    "scenarios": {
+      "A": {
+        "classes": 30,
+        "rooms": 8,
+        "slots": 15
+      },
+      "B": {
+        "classes": 50,
+        "rooms": 10,
+        "slots": 20
+      },
+      "C": {
+        "classes": 70,
+        "rooms": 15,
+        "slots": 25
+      }
+    },
+    "display_delay_ms": 0
+  },
+  "scenarios": [
+    [
+      30,
+      8,
+      15
+    ],
+    [
+      50,
+      10,
+      20
+    ],
+    [
+      70,
+      15,
+      25
+    ]
+  ],
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "notes": "Synthetic data, paired instances, stochastic GA. Times are algorithm-only."
+}
